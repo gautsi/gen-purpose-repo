@@ -32,7 +32,7 @@ def add_state_row_column(df, state_col_names):
         df[state_col_name + "_row"] = df[state_col_name].map(lambda x: int(x / 4))
         df[state_col_name + "_col"] = df[state_col_name].map(lambda x: x % 4)
 
-def run_n_games(num_games, strategy, current_info_dict = False):
+def run_n_games(num_games, strategy, current_info_dict = False, use_tqdm = True):
     states_info_dict = {
       "current_game": [],
       "current_game_action_num": [],
@@ -44,9 +44,11 @@ def run_n_games(num_games, strategy, current_info_dict = False):
     } if current_info_dict == False else current_info_dict
 
     prev_games_played = 0 if current_info_dict == False else len(set(current_info_dict["current_game"]))
+    
+    loop_list = tqdm(range(1, num_games + 1)) if use_tqdm else range(1, num_games + 1)
 
     # run the games
-    for game_num in tqdm(range(1, num_games + 1)):
+    for game_num in loop_list:
         env.reset()
         game_end = False
         current_state = 0
@@ -114,3 +116,66 @@ def plot_game_length(game_df, window = 10):
     fig, ax = plt.subplots(figsize = (20, 6))
 
     ax.plot(game_length_rolling_avg.index, game_length_rolling_avg.action)
+    
+    
+class FrozenLakeQTable(Strategy):
+    
+    def __init__(self, gamma = 0.95, learning_rate = 0.9, damper = 0.0001):
+        self.gamma = gamma
+        self.learning_rate = learning_rate
+        self.q_table = np.random.rand(env.observation_space.n, env.action_space.n) * damper
+        
+    def pick_action(self, current_state, current_game):
+        return np.argmax(self.q_table[current_state,:] + np.random.randn(1, env.action_space.n) * (1.0 / (current_game + 1)))
+
+    def update_strategy(self, current_state, action, next_state, reward, game_end):
+        self.q_table[current_state, action] = self.q_table[current_state, action] -\
+          self.learning_rate * (self.q_table[current_state, action] - reward - self.gamma * np.max(self.q_table[next_state, :]))
+            
+class FrozenLakeNN(Strategy):
+    
+    def __init__(self, init_value_min = 0, init_value_max = 0.01, gamma = 0.99, learning_rate = 0.1):
+        self.init_value_min = init_value_min
+        self.init_value_max = init_value_max
+        self.gamma = gamma        
+        self.learning_rate = learning_rate
+        self.make_net()
+        self.make_sess()
+
+    def make_net(self):
+        tf.reset_default_graph()
+        self.input_layer = tf.placeholder(shape = [1, 16], dtype = tf.float32, name = "input_layer")
+        self.W = tf.Variable(tf.random_uniform([16, 4], self.init_value_min, self.init_value_max))
+        self.Q = tf.matmul(self.input_layer, self.W)
+        self.prediction = tf.argmax(self.Q, 1)
+
+        self.label = tf.placeholder(shape=[1, 4], dtype = tf.float32)
+        self.loss = tf.reduce_sum(tf.square(self.Q - self.label))
+        self.trainer = tf.train.GradientDescentOptimizer(learning_rate = self.learning_rate)
+        self.update = self.trainer.minimize(self.loss)        
+
+    def make_sess(self):
+        self.sess = tf.Session()
+        self.sess.run(tf.global_variables_initializer())
+        
+    def get_state_vector(self, state):
+        return np.identity(16)[state: state + 1]
+
+    def pick_action(self, current_state, current_game):
+        rand_chance = 1.0 / ((1.0 * current_game / 50) + 10)
+
+        if np.random.rand(1) < rand_chance:
+            return env.action_space.sample()
+        else:
+            return self.sess.run(self.prediction, feed_dict = {self.input_layer: self.get_state_vector(current_state)})[0]
+
+    def update_strategy(self, current_state, action, next_state, reward, game_end):
+        current_q = self.sess.run(self.Q, feed_dict = {self.input_layer: self.get_state_vector(current_state)})
+        next_q = self.sess.run(self.Q, feed_dict = {self.input_layer: self.get_state_vector(next_state)})
+        max_next_q = np.max(next_q)
+        current_q[0, action] = reward + self.gamma * max_next_q
+        self.sess.run(self.update, feed_dict = {self.input_layer: self.get_state_vector(current_state), self.label: current_q})
+
+        
+    def stop_sess(self):
+        self.sess.close()
