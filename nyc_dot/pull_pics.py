@@ -5,10 +5,19 @@ from io import BytesIO
 from PIL import Image
 from datetime import datetime as dt
 import time
+import argparse
 
-cams_json_file_loc = "./cams.json"
-log_file_loc = "./pics.log"
-pic_folder = "./pics/"
+parser = argparse.ArgumentParser(description = "Pull NYC DOT traffic webcam pictures")
+parser.add_argument("cams_json_file_loc", nargs = "?", default = "./cams.json")
+parser.add_argument("log_file_loc", nargs = "?", default = "./pics.log")
+parser.add_argument("pic_folder", nargs = "?", default = "./pics/")
+args = parser.parse_args()
+
+# python3 pull_pics.py ./cams.json ./pics.log /mnt/disks/strge/nyc_dot_webcam_pics/
+
+# cams_json_file_loc = "./cams.json"
+# log_file_loc = "./pics.log"
+# pic_folder = "./pics/"
 
 def get_pic(cams_json_file_loc, log_file_loc, pic_folder, prnt = False):
     # get all cams
@@ -55,5 +64,9 @@ def get_pic(cams_json_file_loc, log_file_loc, pic_folder, prnt = False):
             print(msg[:-2])
 
 for i in range(60):
-    get_pic(cams_json_file_loc = cams_json_file_loc, log_file_loc = log_file_loc, pic_folder = pic_folder, prnt = True)
+    get_pic(
+        cams_json_file_loc = args.cams_json_file_loc,
+        log_file_loc = args.log_file_loc,
+        pic_folder = args.pic_folder,
+        prnt = True)
     time.sleep(1)
