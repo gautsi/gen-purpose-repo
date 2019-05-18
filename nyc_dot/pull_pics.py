@@ -37,7 +37,7 @@ def get_pic(cams_json_file_loc, log_file_loc, pic_folder, prnt = False):
             curr_cam_id_ind = last_cam_id_ind + 1 if last_cam_id_ind + 1 < len(cam_ids) else 0
             curr_cam_id = cam_ids[curr_cam_id_ind]
 
-    curr_cam = cams[curr_cam_id]
+    curr_cam = cams[curr_cam_id_ind]
 
     # get the image
     pull_dt = dt.now().strftime("%m%d%y_%H%M%S")
@@ -63,10 +63,13 @@ def get_pic(cams_json_file_loc, log_file_loc, pic_folder, prnt = False):
         if prnt:
             print(msg[:-2])
 
-for i in range(60):
+i = 0
+while True:
+    print(i)
     get_pic(
         cams_json_file_loc = args.cams_json_file_loc,
         log_file_loc = args.log_file_loc,
         pic_folder = args.pic_folder,
         prnt = True)
     time.sleep(1)
+    i = i + 1 
