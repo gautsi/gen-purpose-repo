@@ -1,0 +1,198 @@
+062319
+Nap start 12:15
+Nap stop 1:15
+Feed 1:35
+Feed 3:25
+Nap start 3:35
+Nap stop 3:55
+Nap start 5:20
+Nap stop 5:40
+Feed 6:30
+Nap start 6:50
+Nap stop 7:40
+Bath 8:45
+Feed 9:05
+Sleep 9:40
+Wake up 9:50
+Feed 9:50
+Sleep 10:15
+Wake 1:15
+Feed 1:15
+Sleep 1:30
+Wake 7:00
+062419
+Feed 7:30
+Feed 8:45
+Sleep 9:05
+Wake 9:25
+Sleep 10
+072219
+Feed 9:40P
+Sleep 10:08P
+Wake 10:10P
+Feed 10:12P
+Sleep 10:38P
+072319
+Feed 3:33A
+Sleep 3:40A
+Feed 4:55A
+Sleep 5:03A
+Feed 9:10P
+Sleep 10:00P
+072419
+Feed 8:35P
+Sleep 8:45P
+Feed 10:15P
+Sleep 10:45P
+072519
+Feed 3:30A
+Soepp 3:40A
+Feed 6A
+Sleep 3:40A
+Feed 10:20P
+Sleep 10:40P
+072619
+Feed 2:00A
+Feed 3:30A
+Feed 4:15A
+072719
+Feed 10:15A
+Sleep 11:15A
+Wake 11:45A
+Feed 1:15P
+Feed 2:30P
+Sleep 3:15P
+Wake 5:30P
+Feed 5:30P
+Feed 6:30P
+Sleep 7:25P
+Wake 7:45P
+Feed 8:00P
+Feed 9:00P
+Feed 9:45P
+Sleep 10:10P
+072819
+Sleep 8:45A
+Wake 9:00A
+Feed 9:45A
+Feed 10:45A
+Sleep 11:00A
+Wake 11:30A
+Feed 11:55A
+Feed 12:45P
+Sleep 1:00P
+Feed 1:30P
+Sleep 2:40P
+Wake 3:30P
+Feed 3:45P
+Sleep 4:00P
+Feed 5:10P
+Sleep 6:05P
+Wake 6:50P
+Sleep 7:35P
+Wake 8:00P
+Feed 8:30P
+Feed 10:10P
+Sleep 10:35P
+Wake 11:10P
+Feed 11:10P
+Sleep 11:15P
+072919
+Feed 3:45A
+Feed 5:15A
+Sleep 5:30A
+Wake 5:45A
+Feed 8:30A
+Sleep 10:30A
+Wake 11:00A
+Sleep 12:30P
+Feed 12:55P
+Feed 3:10P
+Sleep 3:30P
+Wake 5:45P
+Feed 6:30P
+Sleep 7:40P
+Feed 9:40P
+Sleep 10:00P
+073019
+Wake 2:50A
+Feed 2:50A
+Sleep 3:20A
+Wake 3:50A
+Feed 3:50A
+Sleep 4:00A
+Wake 7:00A
+Feed 7:00A
+Sleep 7:10A
+Feed 8:00P
+Feed 8:30P
+Feed 10:10P
+Sleep 10:25P
+Feed 11:40P
+Sleep 11:54P
+073119
+Feed 3:30A
+Sleep 3:45A
+Feed 4:40A
+Feed 8:10P
+Feed 9:00P
+Feed 10:00P
+Sleep 10:20P
+080119
+Sleep 3:13A
+Feed 4:40A
+Sleep 10:51A
+Wake 11:15A
+Feed 11:40A
+Sleep 12:09P
+Wake 1:50P
+Feed 2:00P
+Feed 3:30P
+Sleep 3:40P
+Wake 4:09P
+Feed 5:45P
+Sleep 5:50P
+Wake 6:14P
+Feed 8:00P
+Sleep 8:30P
+Feed 9:40P
+Sleep 9:50P
+Feed 11:00P
+Sleep 11:15P
+080219
+Feed 3:30A
+Sleep 3:45A
+Feed 5:00A
+Sleep 5:15A
+Wake 9:00A
+Feed 10:30A
+Feed 11:30A
+Sleep 11:40A
+Wake 12:07P
+Sleep 1:30P
+Wake 2:00P
+Feed 3:40P
+Sleep 3:56P
+Wake 4:20P
+Feed 5:20P
+Sleep 5:40P
+Wake 6:36P
+Feed 7:40P
+Feed 9:35P
+Sleep 9:50A
+Feed 3:15A
+Sleep 3:30A
+Feed 5:30A
+Sleep 5:45A
+Feed 8:50A
+Feed 10:30A
+Feed 11:15A
+Sleep 12:00P
+Wake 12:45P
+Feed 1:30P
+Sleep 2:30P
+Wake 3:10P
+Feed 3:25P
+Sleep 4:00P
+Wake 4:50P
+Feed 5:20P
