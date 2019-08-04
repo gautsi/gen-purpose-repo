@@ -179,7 +179,8 @@ Sleep 5:40P
 Wake 6:36P
 Feed 7:40P
 Feed 9:35P
-Sleep 9:50A
+Sleep 9:50P
+080319
 Feed 3:15A
 Sleep 3:30A
 Feed 5:30A
@@ -196,3 +197,8 @@ Feed 3:25P
 Sleep 4:00P
 Wake 4:50P
 Feed 5:20P
+Feed 6:00P
+Feed 6:30P
+Sleep 7:00P
+Wake 7:20P
+Feed 8:00P
