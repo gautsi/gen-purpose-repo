@@ -289,12 +289,11 @@ Sleep 2:50A
 Feed 6:00A
 Sleep 6:10A
 Feed 7:30A
+Sleep 4:00P
+Wake 6:30P
 Feed 8:15P
 Feed 9:00P
 Sleep 9:20P
-Sleep 9:30A
-Sleep 4:00P
-Wake 6:30P
 Feed 11:00P
 Sleep 11:10P
 080819
