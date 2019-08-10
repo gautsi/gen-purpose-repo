@@ -303,8 +303,12 @@ Sleep 12:40A
 Feed 1:00A
 Sleep 1:10A
 Feed 4:30A
+Sleep 4:40A
 Feed 5:10A
+Sleep 5:20A
 Feed 6:00A
+Sleep 6:15A
+Wake 7:30A
 Feed 8:30A
 Feed 9:25A
 Feed 10:45A
@@ -376,3 +380,5 @@ Feed 7:45A
 Sleep 8:05A
 Wake 8:30A
 Feed 9:00A
+Feed 11:10A
+Sleep 11:20A
