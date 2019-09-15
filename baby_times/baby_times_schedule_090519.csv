@@ -1,0 +1,37 @@
+date,start,end,type,subtype
+90419,07:45 AM,,feed,nursed
+90419,08:45 AM,,feed,nursed
+90419,09:30 AM,,feed,breakfast
+90419,10:05 AM,11:10 AM,sleep,
+90419,11:15 AM,,feed,bottle
+90419,12:45 PM,,feed,lunch
+90419,1:00 PM,,feed,bottle
+90419,1:20 PM,1:50 PM,sleep,
+90419,2:30 PM,,feed,bottle
+90419,2:50 PM,3:50 PM,sleep,
+90419,4:30 PM,,feed,nursed
+90419,6:45 PM,,feed,nursed
+90419,7:15 PM,7:35 PM,sleep,
+90419,7:35 PM,,feed,nursed
+90419,8:10 PM,11:15 PM,sleep,
+90419,11:15 PM,,feed,nursed
+90419,11:28 PM,2:53 AM,sleep,
+90519,2:53 AM,,feed,nursed
+90519,3:14 AM,7:50 AM,sleep,
+90519,7:50 AM,,feed ,nursed
+90519,9:10 AM,,feed,breakfast
+90519,10:30 AM,11:15 AM,sleep,
+90519,11:45 AM,,feed,bottle
+90519,12:30 PM,,feed,lunch
+90519,1:05 PM,1:30 PM,sleep,
+90519,2:05 PM,,feed,nursed
+90519,3:50 PM,4:20 PM,sleep,
+90519,5:30 PM,,feed,dinner
+90519,6:05 PM,,feed,nursed
+90519,7:15 PM,,feed,nursed
+90519,8:25 PM,2:35 AM,sleep,
+90619,2:35 AM,,feed,nursed
+90619,2:43 AM,5:52 AM,sleep,
+90619,5:52 AM,,feed,nursed
+90619,6:07 AM,8:00 AM,sleep,
+90619,8:00 AM,,feed,nursed
