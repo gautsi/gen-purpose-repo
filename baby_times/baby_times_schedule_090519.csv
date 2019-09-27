@@ -18,7 +18,7 @@ date,start,end,type,subtype
 09/04/19,11:28 PM,2:53 AM,sleep,
 09/05/19,2:53 AM,,feed,nursed
 09/05/19,3:14 AM,7:50 AM,sleep,
-09/05/19,7:50 AM,,feed ,nursed
+09/05/19,7:50 AM,,feed,nursed
 09/05/19,9:10 AM,,feed,breakfast
 09/05/19,10:30 AM,11:15 AM,sleep,
 09/05/19,11:45 AM,,feed,bottle
@@ -94,13 +94,13 @@ date,start,end,type,subtype
 09/09/19,8:30 AM,,feed,nursed
 09/09/19,8:55 AM,9:20 AM,sleep,
 09/09/19,9:25 AM,,feed,breakfast
-09/09/19,11:45 AM,,feed,
+09/09/19,11:45 AM,,feed,bottle
 09/09/19,12:15 PM,12:45 PM,sleep,
 09/09/19,1:15 PM,,feed,lunch
 09/09/19,2:30 PM,3:00 PM,sleep,
-09/09/19,3:05 PM,,feed,
+09/09/19,3:05 PM,,feed,bottle
 09/09/19,4:50 PM,,feed,dinner
-09/09/19,5:05 PM,,feed,
+09/09/19,5:05 PM,,feed,bottle
 09/09/19,5:15 PM,5:50 PM,sleep,
 09/09/19,6:15 PM,,feed,dinner
 09/09/19,7:30 PM,,feed,nursed
@@ -112,7 +112,7 @@ date,start,end,type,subtype
 09/10/19,9:10 AM,,feed,nursed
 09/10/19,10:00 AM,,feed,breakfast
 09/10/19,10:25 AM,10:45 AM,sleep,
-09/10/19,11:15 AM,,feed,
+09/10/19,11:15 AM,,feed,bottle
 09/10/19,12:30 PM,,feed,bottle
 09/10/19,12:40 PM,1:05 PM,sleep,
 09/10/19,1:10 PM,,feed,bottle
@@ -221,7 +221,7 @@ date,start,end,type,subtype
 09/16/19,1:30 PM,,feed,lunch
 09/16/19,2:30 PM,,feed,bottle
 09/16/19,3:25 PM,4:05 PM,sleep,
-09/16/19,5:05 PM,,feed,
+09/16/19,5:05 PM,,feed,bottle
 09/16/19,5:15 PM,,feed,dinner
 09/16/19,6:15 PM,6:40 PM,sleep,
 09/16/19,6:55 PM,,feed,bottle
@@ -276,7 +276,7 @@ date,start,end,type,subtype
 09/20/19,2:05 AM,,feed,nursed
 09/20/19,2:40 AM,6:05 AM,sleep,
 09/20/19,6:05 AM,,feed,nursed
-09/20/19,6:30 PM,7:30 PM,sleep,
+09/20/19,6:30 AM,7:30 AM,sleep,
 09/20/19,8:45 AM,,feed,breakfast
 09/20/19,9:30 AM,,feed,nursed
 09/20/19,10:15 AM,10:25 AM,sleep,
@@ -298,3 +298,118 @@ date,start,end,type,subtype
 09/21/19,1:00 AM,,feed,nursed
 09/21/19,1:15 AM,7:00 AM,sleep,
 09/21/19,7:00 AM,,feed,nursed
+09/21/19,7:50 AM,,feed,breakfast
+09/21/19,9:40 AM,,feed,nursed
+09/21/19,11:00 AM,,feed,bottle
+09/21/19,11:05 AM,12:35 PM,sleep,
+09/21/19,12:40 PM,,feed,bottle
+09/21/19,2:00 PM,,feed,lunch
+09/21/19,2:50 PM,,feed,nursed
+09/21/19,3:30 PM,4:15 PM,sleep,
+09/21/19,5:25 PM,,feed,dinner
+09/21/19,6:45 PM,,feed,bottle
+09/21/19,7:00 PM,12:00 AM,sleep,
+09/22/19,12:00 AM,,feed,bottle
+09/22/19,12:20 AM,3:10 AM,sleep,
+09/22/19,3:10 AM,,feed,nursed
+09/22/19,3:20 AM,5:05 AM,sleep,
+09/22/19,5:05 AM,,feed,nursed
+09/22/19,5:35 AM,5:50 AM,sleep,
+09/22/19,5:50 AM,,feed,nursed
+09/22/19,6:00 AM,7:00 AM,sleep,
+09/22/19,8:35 AM,,feed,nursed
+09/22/19,10:30 AM,,feed,breakfast
+09/22/19,11:23 AM,12:35 PM,sleep,
+09/22/19,12:35 PM,,feed,nursed
+09/22/19,2:00 PM,,feed,bottle
+09/22/19,2:25 PM,2:35 PM,sleep,
+09/22/19,3:30 PM,,feed,nursed
+09/22/19,4:20 PM,5:35 PM,sleep,
+09/22/19,7:00 PM,,feed,nursed
+09/22/19,8:00 PM,10:40 PM,sleep,
+09/22/19,10:40 PM,,feed,nursed
+09/22/19,11:10 PM,1:30 AM,sleep,
+09/23/19,1:30 AM,,feed,nursed
+09/23/19,1:40 AM,3:00 AM,sleep,
+09/23/19,3:00 AM,,feed,nursed
+09/23/19,3:20 AM,5:45 PM,sleep,
+09/23/19,5:45 PM,,feed,nursed
+09/23/19,8:00 AM,,feed,breakfast
+09/23/19,8:25 AM,,feed,nursed
+09/23/19,10:00 AM,10:15 AM,sleep,
+09/23/19,11:40 AM,,feed,nursed
+09/23/19,11:58 AM,1:42 PM,sleep,
+09/23/19,1:50 PM,,feed,lunch
+09/23/19,4:20 PM,,feed,nursed
+09/23/19,4:38 PM,5:15 PM,sleep,
+09/23/19,5:40 PM,,feed,dinner
+09/23/19,6:30 PM,,feed,nursed
+09/23/19,7:40 PM,,feed,nursed
+09/23/19,8:00 PM,1:30 AM,sleep,
+09/24/19,1:30 AM,,feed,nursed
+09/24/19,2:10 AM,4:25 AM,sleep,
+09/24/19,4:25 AM,,feed,nursed
+09/24/19,5:05 AM,5:20 AM,sleep,
+09/24/19,5:20 AM,,feed,nursed
+09/24/19,5:40 AM,8:50 AM,sleep,
+09/24/19,8:50 AM,,feed,nursed
+09/24/19,9:20 AM,,feed,breakfast
+09/24/19,11:00 AM,,feed,nursed
+09/24/19,11:30 AM,12:30 PM,sleep,
+09/24/19,12:40 PM,,feed,lunch
+09/24/19,2:20 PM,,feed,bottle
+09/24/19,2:30 PM,4:38 PM,sleep,
+09/24/19,5:15 PM,,feed,dinner
+09/24/19,5:45 PM,,feed,bottle
+09/24/19,6:50 PM,,feed,bottle
+09/24/19,7:20 PM,11:00 PM,sleep,
+09/24/19,11:00 PM,,feed,nursed
+09/24/19,11:25 PM,3:05 AM,sleep,
+09/25/19,3:05 AM,,feed,nursed
+09/25/19,3:20 AM,4:00 AM,sleep,
+09/25/19,4:00 AM,,feed,nursed
+09/25/19,4:20 AM,6:40 AM,sleep,
+09/25/19,6:40 AM,,feed,nursed
+09/25/19,8:00 AM,,feed,breakfast
+09/25/19,11:40 AM,,feed,nursed
+09/25/19,11:52 AM,12:25 PM,sleep,
+09/25/19,12:35 PM,,feed,lunch
+09/25/19,2:15 PM,3:40 PM,sleep,
+09/25/19,3:50 PM,,feed,bottle
+09/25/19,5:35 PM,,feed,bottle
+09/25/19,5:45 PM,6:20 PM,sleep,
+09/25/19,7:00 PM,,feed,bottle
+09/25/19,7:20 PM,,feed,nursed
+09/25/19,8:05 PM,12:10 AM,sleep,
+09/26/19,12:10 AM,,feed,nursed
+09/26/19,12:30 AM,5:25 AM,sleep,
+09/26/19,5:25 AM,,feed,nursed
+09/26/19,5:50 AM,7:40 AM,sleep,
+09/26/19,7:40 AM,,feed,nursed
+09/26/19,8:45 AM,,feed,breakfast
+09/26/19,10:00 AM,10:40 AM,sleep,
+09/26/19,12:30 PM,,feed,bottle
+09/26/19,12:45 PM,1:50 PM,sleep,
+09/26/19,2:00 PM,,feed,lunch
+09/26/19,3:30 PM,,feed,bottle
+09/26/19,3:45 PM,4:15 PM,sleep,
+09/26/19,4:20 PM,,feed,bottle
+09/26/19,6:00 PM,,feed,dinner
+09/26/19,7:40 PM,,feed,bottle
+09/26/19,7:45 PM,10:50 PM,sleep,
+09/26/19,10:50 PM,,feed,nursed
+09/26/19,11:05 PM,3:35 AM,sleep,
+09/27/19,3:35 AM,,feed,nursed
+09/27/19,3:50 AM,5:30 AM,sleep,
+09/27/19,5:30 AM,,feed,nursed
+09/27/19,6:30 AM,6:48 AM,sleep,
+09/27/19,6:48 AM,,feed,nursed
+09/27/19,8:00 AM,,feed,breakfast
+09/27/19,10:10 AM,,feed,nursed
+09/27/19,10:25 AM,11:45 AM,sleep,
+09/27/19,11:50 AM,,feed,bottle
+09/27/19,1:15 PM,,feed,lunch
+09/27/19,1:30 PM,,feed,bottle
+09/27/19,1:50 PM,3:05 PM,sleep,
+09/27/19,3:10 PM,,feed,bottle
+09/27/19,4:40 PM,,feed,bottle
