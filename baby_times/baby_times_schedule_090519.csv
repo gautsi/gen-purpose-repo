@@ -468,8 +468,8 @@ date,start,end,type,subtype
 09/30/19,7:30 PM,,feed,nursed
 09/30/19,8:00 PM,11:00 PM,sleep,
 09/30/19,11:00 PM,,feed,nursed
-09/30/19,11:10 PM,2:50 PM,sleep,
-10/01/19,2:50 PM,,feed,nursed
+09/30/19,11:10 PM,2:50 AM,sleep,
+10/01/19,2:50 AM,,feed,nursed
 10/01/19,3:10 AM,5:50 AM,sleep,
 10/01/19,5:50 AM,,feed,nursed
 10/01/19,6:00 AM,7:15 AM,sleep,
@@ -488,5 +488,40 @@ date,start,end,type,subtype
 10/01/19,7:30 PM,,feed,nursed
 10/01/19,8:00 PM,10:45 PM,sleep,
 10/01/19,10:45 PM,,feed,nursed
-10/01/19,10:05 PM,1:50 AM,sleep,
+10/01/19,11:05 PM,1:50 AM,sleep,
 10/02/19,1:50 AM,,feed,nursed
+10/02/19,2:25 AM,4:45 AM,sleep,
+10/02/19,4:45 AM,,feed,nursed
+10/02/19,5:00 AM,6:15 AM,sleep,
+10/02/19,6:15 AM,,feed,nursed
+10/02/19,6:30 AM,7:15 AM,sleep,
+10/02/19,8:45 AM,,feed,breakfast
+10/02/19,9:35 AM,,feed,nursed
+10/02/19,11:10 AM,11:20 AM,sleep,
+10/02/19,11:25 AM,12:10 PM,sleep,
+10/02/19,12:15 PM,,feed,bottle
+10/02/19,1:50 PM,,feed,lunch
+10/02/19,2:00 PM,,feed,bottle
+10/02/19,2:15 PM,3:10 PM,sleep,
+10/03/19,4:40 PM,,feed,bottle
+10/03/19,5:20 PM,5:50 PM,sleep,
+10/03/19,6:10 PM,,feed,dinner
+10/03/19,6:50 PM,,feed,bottle
+10/03/19,7:00 PM,,feed,nursed
+10/03/19,7:20 PM,,feed,nursed
+10/03/19,8:05 PM,3:20 AM,sleep,
+10/03/19,3:20 AM,,feed,nursed
+10/03/19,4:20 AM,6:15 AM,sleep,
+10/03/19,6:15 AM,,feed,nursed
+10/03/19,8:00 AM,,feed,nursed
+10/03/19,8:15 AM,9:15 AM,sleep,
+10/03/19,10:00 AM,,feed,breakfast
+10/03/19,12:20 PM,,feed,bottle
+10/03/19,12:30 PM,1:55 PM,sleep,
+10/03/19,1:55 PM,,feed,bottle
+10/03/19,2:15 PM,2:55 PM,sleep,
+10/03/19,3:05 PM,,feed,lunch
+10/03/19,5:20 PM,6:00 PM,sleep,
+10/03/19,7:00 PM,,feed,dinner
+10/03/19,7:30 PM,,feed,nursed
+10/04/19,7:55 PM,1:00 AM,sleep,
