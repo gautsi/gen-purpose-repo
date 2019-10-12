@@ -524,4 +524,5 @@ date,start,end,type,subtype
 10/03/19,5:20 PM,6:00 PM,sleep,
 10/03/19,7:00 PM,,feed,dinner
 10/03/19,7:30 PM,,feed,nursed
-10/04/19,7:55 PM,1:00 AM,sleep,
+10/03/19,7:55 PM,1:00 AM,sleep,
+10/04/19,1:00 AM,,feed,nursed
