@@ -308,8 +308,8 @@ date,start,end,type,subtype
 09/21/19,3:30 PM,4:15 PM,sleep,
 09/21/19,5:25 PM,,feed,dinner
 09/21/19,6:45 PM,,feed,bottle
-09/21/19,7:00 PM,12:00 AM,sleep,
-09/22/19,12:00 AM,,feed,bottle
+09/21/19,7:00 PM,12:01 AM,sleep,
+09/22/19,12:01 AM,,feed,bottle
 09/22/19,12:20 AM,3:10 AM,sleep,
 09/22/19,3:10 AM,,feed,nursed
 09/22/19,3:20 AM,5:05 AM,sleep,
@@ -458,7 +458,7 @@ date,start,end,type,subtype
 09/30/19,8:20 AM,,feed,breakfast
 09/30/19,9:00 AM,,feed,nursed
 09/30/19,9:10 AM,9:30 AM,sleep,
-09/30/19,11:20 AM,12:43 AM,sleep,
+09/30/19,11:20 AM,12:43 PM,sleep,
 09/30/19,1:00 PM,,feed,lunch
 09/30/19,2:35 PM,,feed,bottle
 09/30/19,2:50 PM,4:20 PM,sleep,
