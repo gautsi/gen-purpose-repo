@@ -13,3 +13,13 @@ https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permissio
 
 ### Docker syntax highlighting
 https://github.com/mrorgues/gedit-xed-docker-syntax-highlighting
+
+
+### Atom
+
+From ubuntu software center
+
+#### Docker syntax highlighter
+```
+apm install language-docker
+```
