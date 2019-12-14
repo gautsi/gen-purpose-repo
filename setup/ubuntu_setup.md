@@ -11,6 +11,8 @@ sudo apt install docker.io
 https://github.com/AGhost-7/docker-dev/blob/master/tutorial/readme.md
 https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket
 
+My dev docker: https://github.com/gautsi/dockers/tree/master/dev_env
+
 ### Docker syntax highlighting
 https://github.com/mrorgues/gedit-xed-docker-syntax-highlighting
 
