@@ -25,3 +25,6 @@ From ubuntu software center
 ```
 apm install language-docker
 ```
+
+### vim
+https://www.linux.com/tutorials/vim-101-beginners-guide-vim/
