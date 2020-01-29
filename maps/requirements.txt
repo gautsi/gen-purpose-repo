@@ -159,7 +159,7 @@ virtualenv==15.2.0
 virtualenv-clone==0.3.0
 virtualenvwrapper==4.8.2
 webencodings==0.5.1
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 wrapt==1.10.11
 xlrd==0.9.4
 XlsxWriter==0.8.4
