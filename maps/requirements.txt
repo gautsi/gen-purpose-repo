@@ -110,7 +110,7 @@ pycrypto==2.6.1
 pycurl==7.19.5.3
 pyflakes==1.1.0
 pyglet==1.2.4
-Pygments==2.2.0
+Pygments==2.7.4
 pylint==1.8.4
 pyOpenSSL==16.2.0
 pyparsing==2.0.3
