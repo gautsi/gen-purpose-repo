@@ -154,7 +154,7 @@ tornado==5.1
 tqdm==4.19.1.post1
 traitlets==4.3.2
 unicodecsv==0.14.1
-urllib3==1.23
+urllib3==1.26.5
 virtualenv==15.2.0
 virtualenv-clone==0.3.0
 virtualenvwrapper==4.8.2
