@@ -85,7 +85,7 @@ numba==0.37.0
 numexpr==2.6.4
 numpy==1.14.1
 odo==0.4.2
-openpyxl==2.3.2
+openpyxl==2.4.2
 pandas==0.22.0
 pandocfilters==1.4.2
 parso==0.3.1
